@@ -14,7 +14,7 @@ Since 2022 I have been a research physicist at the Alferov University (Saint Pet
 
 - Semiconductor lasers: resonators, thresholds, mode structure, DBR and DFB gratings
 - Optical Tamm states in multilayer structures
-- Numerical electromagnetics: I develop my own frequency-domain Maxwell solver (FDFD) in Python to compute optical modes, facet reflectivities, and lasing thresholds of multilayer epitaxial structures
+- Numerical electromagnetics: I develop my own [frequency-domain Maxwell solver (FDFD) in Python](https://github.com/elenashliaga/maxwellfdfd-python) to compute optical modes, facet reflectivities, and lasing thresholds of multilayer epitaxial structures
 - Optical measurements: L–I and I–V characteristics, spectra, fiber input/output coupling
 - Quantum computing and photonics — the topics I enjoy explaining on this blog
 
