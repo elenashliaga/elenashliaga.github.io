@@ -22,10 +22,6 @@ There is also a selfish reason: I want to be part of the international physics c
 
 Posts appear weekly, in English. Math is rendered properly, so when a formula is the clearest way to say something, it will be there — always with a reference to where it comes from.
 
-## What you will NOT find here
-
-My own unpublished research results do not appear on this blog — they go to peer-reviewed journals first. Everything published here is already-published knowledge, re-explained. When I digest my own published papers, I will say so explicitly.
-
 ## One more thing
 
 If a post helps you, or if you think I got something wrong, write to me: [elena.shliaga@gmail.com](mailto:elena.shliaga@gmail.com). Corrections make the blog better, and disagreeing is what physics is built on.
