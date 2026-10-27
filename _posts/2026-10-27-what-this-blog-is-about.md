@@ -1,5 +1,5 @@
 ---
-title: "Hello, world: what this blog is about"
+title: "What this blog is about"
 date: 2026-10-27
 description: "I am a laser physicist starting a weekly blog: quantum computing explained, photonics, and careful digests of research papers — published knowledge only."
 tags: [meta]
