@@ -29,7 +29,7 @@ Since 2022 I have been a research physicist at the Alferov University (Saint Pet
 
 1. V. A. Shchukin, **E. V. Shliaga**, V. P. Kalosha, and N. N. Ledentsov,
    "Antireflective behaviour of a facet in a multilayer waveguide-based laser with a surface-trapped mode,"
-   [Phys. Rev. B **112**, 195407 (2025)](https://doi.org/10.1103/PhysRevB.112.195407).
+   [Phys. Rev. B **112**, 195407 (2025)](https://journals.aps.org/prb/abstract/10.1103/wysg-f7kw).
 2. DFB stabilization of lasers based on Tamm optical states — in preparation (2026).
 
 <!-- TODO: Elena — add a link to a public CV PDF (put it in assets/ and uncomment):
@@ -45,8 +45,6 @@ I publish one article per week:
 - **Quantum computing explained** — from qubits and gates to error correction, for students and curious engineers
 - **Photonics and lasers** — how lasers actually work, as textbook physics retold clearly
 - **Paper digests** — careful summaries of research papers I found worth reading
-
-One rule I keep strictly: everything from my own unpublished research goes to journals first and appears here only after (or never). What you read here is published knowledge, explained.
 
 ## Contact
 
