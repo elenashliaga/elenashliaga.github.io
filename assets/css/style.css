@@ -1,0 +1,132 @@
+/* Elena Shliaga — physics blog. Clean academic look, auto dark mode. */
+
+:root {
+  --bg: #fdfdfc;
+  --fg: #1f2328;
+  --muted: #6a737d;
+  --accent: #0b5394;
+  --border: #e1e4e8;
+  --code-bg: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --fg: #d6d9de;
+    --muted: #8b949e;
+    --accent: #6ea8fe;
+    --border: #2a2f37;
+    --code-bg: #161a21;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 17px; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.25;
+}
+
+a { color: var(--accent); }
+a:hover { text-decoration: underline; }
+
+code, pre {
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+code { padding: 0.15em 0.35em; }
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+pre code { padding: 0; background: none; }
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  margin-left: 0;
+  padding-left: 1rem;
+  color: var(--muted);
+}
+
+img { max-width: 100%; height: auto; }
+
+table { border-collapse: collapse; margin: 1.5rem 0; }
+td, th { border: 1px solid var(--border); padding: 0.4rem 0.7rem; }
+
+/* Layout */
+.container {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+main.container { padding-top: 2.2rem; padding-bottom: 3rem; min-height: 60vh; }
+
+/* Header */
+.site-header { border-bottom: 1px solid var(--border); }
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+.site-title {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+.site-nav a {
+  margin-left: 1.2rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+.site-nav a:hover { color: var(--accent); }
+
+/* Home */
+.hero { margin-bottom: 3rem; }
+.hero h1 { margin-bottom: 0.4rem; font-size: 2.1rem; }
+.tagline { color: var(--muted); font-size: 1.12rem; max-width: 40rem; }
+.hero-links { font-size: 0.95rem; }
+.section-title {
+  font-size: 1.3rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+.post-list { list-style: none; padding: 0; }
+.post-list li { margin-bottom: 1.7rem; }
+.post-list h3 { margin: 0.2rem 0 0.3rem; font-size: 1.22rem; }
+.post-excerpt { margin: 0; color: var(--muted); }
+
+/* Posts */
+.post-header h1 { margin-bottom: 0.3rem; }
+.post-meta { color: var(--muted); font-size: 0.92rem; margin-top: 0; }
+.post-footer { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.site-footer .container { padding-top: 1.1rem; padding-bottom: 2rem; }
+
+/* MathJax display equations: scrollable on narrow screens */
+mjx-container[jax="HTML-CSS"][display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 0;
+}

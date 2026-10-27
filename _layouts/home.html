@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="hero">
+  <h1>Elena Shliaga</h1>
+  <p class="tagline">
+    Physicist working on semiconductor lasers. I write about quantum computing,
+    photonics, and research papers worth reading — one post every week.
+  </p>
+  <p class="hero-links">
+    <a href="{{ '/about/' | relative_url }}">About me</a> ·
+    <a href="https://github.com/elenashliaga">GitHub</a> ·
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </p>
+</div>
+
+<h2 class="section-title">Latest posts</h2>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <span class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</span>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    {% if post.description %}<p class="post-excerpt">{{ post.description | escape }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
