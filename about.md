@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Elena Shliaga, a physicist working on edge-emitting semiconductor lasers. On this blog I write about quantum computing, photonics, and research papers worth reading — in plain, careful English.
+I am Elena Shliaga, a physicist working on edge-emitting semiconductor lasers. On this blog I write about the physics behind my work — semiconductor lasers, photonics of multilayer structures, and computational electromagnetics — and about research papers worth reading, in plain, careful English.
 
 ## Where I am now
 
@@ -16,7 +16,6 @@ Since 2022 I have been a research physicist at the Alferov University (Saint Pet
 - Optical Tamm states in multilayer structures
 - Numerical electromagnetics: I develop my own [frequency-domain Maxwell solver (FDFD) in Python](https://github.com/elenashliaga/maxwellfdfd-python) to compute optical modes, facet reflectivities, and lasing thresholds of multilayer epitaxial structures
 - Optical measurements: L–I and I–V characteristics, spectra, fiber input/output coupling
-- Quantum computing and photonics — the topics I enjoy explaining on this blog
 
 ## Education
 
@@ -42,8 +41,8 @@ Since 2022 I have been a research physicist at the Alferov University (Saint Pet
 
 I publish one article per week:
 
-- **Quantum computing explained** — from qubits and gates to error correction, for students and curious engineers
 - **Photonics and lasers** — how lasers actually work, as textbook physics retold clearly
+- **Computational electromagnetics, with open code** — how light is simulated on a grid: frequency-domain Maxwell solvers, perfectly matched layers, optical modes, built around my open-source library [maxwellfdfd-python](https://github.com/elenashliaga/maxwellfdfd-python)
 - **Paper digests** — careful summaries of research papers I found worth reading
 
 ## Contact

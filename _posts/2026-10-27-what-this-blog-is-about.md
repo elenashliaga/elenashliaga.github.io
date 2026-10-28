@@ -1,7 +1,7 @@
 ---
 title: "What this blog is about"
 date: 2026-10-27
-description: "I am a laser physicist starting a weekly blog: quantum computing explained, photonics, and careful digests of research papers — published knowledge only."
+description: "A laser physicist starts a weekly blog: lasers and photonics from first principles, computational electromagnetics with open code, careful paper digests."
 tags: [meta]
 math: false
 ---
@@ -16,8 +16,8 @@ There is also a selfish reason: I want to be part of the international physics c
 
 ## What you will find here
 
-- **Quantum computing, explained carefully.** Qubits, superposition, gates, decoherence, error correction — built from first principles, with formulas only when they help. The goal is that a physics student can actually follow every step.
 - **Photonics and lasers.** How a laser reaches threshold, what gain and modes really are, how gratings and mirrors select a single wavelength. This is my home territory, and I will keep it textbook-honest.
+- **Computational electromagnetics, with open code.** How light is actually simulated on a grid — frequency-domain Maxwell solvers, perfectly matched layers, optical modes — built around my open-source Python library [maxwellfdfd-python](https://github.com/elenashliaga/maxwellfdfd-python).
 - **Paper digests.** Short, careful summaries of research papers — what problem they solve, how, and what the limits are. Every digest links the original paper, and I only describe what the authors actually claim.
 
 Posts appear weekly, in English. Math is rendered properly, so when a formula is the clearest way to say something, it will be there — always with a reference to where it comes from.
